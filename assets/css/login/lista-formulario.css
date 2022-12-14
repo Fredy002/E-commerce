@@ -1,0 +1,7 @@
+.lista__formulario{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    margin: 2rem;
+    border-bottom: 1px solid #ccc;
+}

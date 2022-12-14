@@ -1,0 +1,29 @@
+.lista__item{
+    padding: 1rem;
+}
+.item{
+    font-size: 1.25rem;
+    color: #464646;
+    text-decoration: none;
+}
+.item:hover{
+    font-size: 1.3rem;
+    color: #2a7ae4;
+    transition: all 0.3s ease-in-out;
+}
+@media screen and (min-width: 0){
+    .lista__item{
+        padding: 1rem 0;
+    }
+    .item{
+        font-size: 1.25rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .lista__item{
+        padding: 1rem 0;
+    }
+    .item{
+        font-size: 1.25rem;
+    }
+}

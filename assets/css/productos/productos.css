@@ -1,0 +1,18 @@
+.productos{
+    background: #fdfdfd;
+}
+@media screen and (min-width: 0) {
+    .productos{
+        padding:5rem 0 0 1rem;
+    }
+}
+@media screen and (min-width: 768px) {
+    .productos{
+        padding:5rem 0 0 2.5rem;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .productos{
+        padding:5rem 0 0 5rem;
+    }
+}

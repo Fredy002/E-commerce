@@ -1,0 +1,25 @@
+.banner__slider{
+    background: url(/assets/image/banner_1.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: slide 50s infinite;
+    align-items: flex-end;
+    display: flex;
+}
+@keyframes slide{
+    0%{ background-image: url('/assets/image/banner/banner_1.png');}
+    25%{background-image: url('/assets/image/banner/banner_2.png');}
+    50%{background-image: url('/assets/image/banner/banner_3.png');}
+    75%{background-image: url('/assets/image/banner/banner_4.png');}
+    100%{background-image: url('/assets/image/banner/banner_5.png');}
+}
+.slider{
+    color: #fff;
+    background: rgb(0,0,0,0.5);
+    width: 100%;
+    text-align: center;
+    padding: 1rem 2rem;
+}
+

@@ -1,0 +1,13 @@
+.seccion__contenido{
+    padding: 1rem;
+}
+@media screen and (min-width: 0) {
+    .seccion__contenido{
+        padding: 1rem 5rem;
+    }
+}
+@media screen and (min-width: 480px) {
+    .seccion__contenido{
+        padding: 1rem;
+    }
+}

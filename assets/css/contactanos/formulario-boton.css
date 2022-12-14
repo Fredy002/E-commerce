@@ -1,0 +1,18 @@
+.formulario__boton{
+    background: #2a7ae4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 1rem;
+    padding: 0.5rem;
+    text-align: center;
+}
+.formulario__boton:hover{
+    font-size: 1.125rem;
+    transition:  0.3s;
+}

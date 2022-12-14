@@ -1,0 +1,14 @@
+.slider__descripcion{
+    color: #fff;
+    font-weight: 400;
+}
+@media screen and (min-width: 0px){
+    .slider__descripcion{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .slider__descripcion{
+        font-size: 1.5rem;
+    }
+}

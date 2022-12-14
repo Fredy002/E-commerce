@@ -1,0 +1,4 @@
+.secciones{
+    display: flex;;
+    flex-wrap: wrap;/*para que se ajuste al tamaño de la pantalla*/
+}

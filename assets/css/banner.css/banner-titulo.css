@@ -1,0 +1,14 @@
+.slider__titulo{
+    color: #fff;
+    font-weight: 700;
+}
+@media screen and (min-width: 0px){
+    .slider__titulo{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (min-width: 768px){
+    .slider__titulo{
+        font-size: 2.5rem;
+    }
+}

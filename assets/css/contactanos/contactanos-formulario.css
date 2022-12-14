@@ -1,0 +1,34 @@
+
+.contactanos__formulario-titulo{
+    font-weight: 600;
+    color: #464646;
+    font-weight: bold;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+@media screen and (min-width: 0){
+    .contactanos__formulario{
+        width: 80%;
+    }
+    .contactanos__formulario-titulo{
+        font-size: 1.25rem;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 480px){
+    .contactanos__formulario{
+        width: 90%;
+    }
+    .contactanos__formulario-titulo{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 768px){
+    .contactanos__formulario{
+        width: 100%;
+    }
+    .contactanos__formulario-titulo{
+        font-size: 1.5rem;
+    }
+}

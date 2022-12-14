@@ -1,0 +1,17 @@
+.contactanos__terminos{
+    width: 100%;
+}
+.contactanos__terminos-lista{
+    list-style: none;
+    padding: 0;
+}
+@media screen and (min-width: 768px){
+    .contactanos__terminos{
+        padding: 1rem;
+    }
+}
+@media screen and (min-width: 1024px){
+    .contactanos__terminos{
+        padding: 1rem;
+    }
+}

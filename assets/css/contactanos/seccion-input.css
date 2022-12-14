@@ -1,0 +1,25 @@
+.formulario__seccion-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid 1.5px #9e9e9e;
+    padding: 1rem;
+    font-size: 1rem;
+    color: #464646;
+    border-radius: 10px;
+    transition: 0.3s;
+    outline: none;
+    width: 100%;
+}
+
+
+.formulario__seccion-input:focus{
+    border: solid 1.5px #cd7474;
+}
+
+.formulario__seccion-input:focus ~ .formulario__seccion__titulo,
+.formulario__seccion-input:not(:placeholder-shown) .formulario__seccion-input:not(:focus) ~ .formulario__seccion__titulo{
+    top: -.9rem;
+    left: 1rem;
+    font-size: 0.8rem;
+}

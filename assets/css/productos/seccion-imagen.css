@@ -1,0 +1,9 @@
+.seccion__imagen{
+    height: 100%;
+    background:#E8E8E8;
+    background-size: cover;
+}
+.seccion__imagen-marca{
+    height: 100%;
+    background-size: cover;
+}

@@ -1,0 +1,10 @@
+.formulario__seccion__titulo{
+    position: absolute;
+    top: 0.8rem;
+    left: 20px;
+    color: #464646;
+    cursor: text;
+    transition: 0.5s;
+    padding: 2px 5px 0 5px;;
+    width: fit-content; /*es para que el titulo no se salga del input*/
+}
